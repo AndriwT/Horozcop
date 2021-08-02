@@ -1,3 +1,32 @@
+#main_container {
+  background-color:#5b5f68;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px 75px 100px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#input_container {
+  background-color:#989ca7;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 30px;
+}
+
+#submit_button {
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
 .App {
   text-align: center;
 }
@@ -5,12 +34,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -35,4 +58,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 500px;
 }
